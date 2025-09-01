@@ -32,7 +32,7 @@ Proje Paket Şeması:
   + java
     + com.otelyonetim.rezervasyon
       + config
-	- IyzicoConfig
+		- IyzicoConfig
       + controller
         - CustomerController
         - PaymentController
@@ -74,7 +74,7 @@ Proje Paket Şeması:
       + enums
         - Currency
         - PaymentMethod
-	- PaymentProvider
+		- PaymentProvider
         - PaymentStatus
         - ReservationStatus
         - RoomType
@@ -102,9 +102,9 @@ Proje Paket Şeması:
         + payment
           - PaymentService
           - PaymentServiceImpl
-	+ gateway
-	  - IyzicoPaymentService
-	  - PaymentGatewayService
+		+ gateway
+	  	  - IyzicoPaymentService
+	      - PaymentGatewayService
         + reservation
           - ReservationService
           - ReservationServiceImpl
